@@ -1,0 +1,22 @@
+  <html>
+    <head>
+      <!--
+
+      let data = [
+        {"tag":"pumpSpeed", "value":<%TagSSI,pumpSpeed%>},
+        {"tag":"tankLevel", "value":<%TagSSI,tankLevel%>,"min":0,"max":100},
+        {"tag":"temperature", "value":<%TagSSI,temperature%>,"min":0,"max":100},
+      ]
+      -->
+      <script>
+      let demodata = [
+        {"tag":"pumpSpeed", "value":40},
+        {"tag":"tank1Level", "value":70,"min":0,"max":100},
+        {"tag":"tank2Level", "value":20,"min":0,"max":100},
+        {"tag":"temperature", "value":60,"min":0,"max":100},
+      ]
+      
+      </script>
+    </head>
+    <body>SSI Data</body>
+  </html>
